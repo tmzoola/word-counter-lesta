@@ -1,0 +1,64 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Django-related
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+*.bak
+
+# Environment variables and secrets
+.env
+*.env
+
+# Migrations (optional, if you don't want auto-generated migration files in version control)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery and cache files
+celerybeat-schedule
+*.pid
+
+# Docker and deployment
+*.tar
+*.out
+*.log
+compose.yaml
+docker-compose.override.yml
+
+# Node modules (if using frontend dependencies)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gunicorn and Supervisor
+gunicorn_error.log
+supervisord.log
