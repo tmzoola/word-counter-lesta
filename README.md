@@ -6,7 +6,7 @@ A Django-based web application that calculates **TF-IDF** values for words in a 
 
 ### **1⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/word-counter.git
+git clone https://github.com/tmzoola/word-counter-lesta.git
 cd word-counter
 ```
 
