@@ -2,5 +2,5 @@ from django.urls import path
 from .views import TFIDFView
 
 urlpatterns = [
-    path("", TFIDFView.as_view(), name="upload_file"),
+    path("", TFIDFView.as_view(), name="tfidf_view"),
 ]
